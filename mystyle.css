@@ -1,8 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    background-color: lightblue;
+    background-color: ivory;
   }
   
   h1 {
-    color: navy;
-    margin-left: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    color: black;
+    text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
