@@ -10,13 +10,33 @@ body {
 }
   
   .main-content {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://github.com/AtilG/AtilG.github.io/blob/b0e30c2635719ed02def78422752032ce41a6e2f/pictures/72708906.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://github.com/AtilG/AtilG.github.io/blob/main/pictures/photo-1473042904451-00171c69419d.jpeg?raw=true);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
+.longer-animated {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeout-overlay .mask:hover {
+  opacity: 0;
+}
+
+.fadeout-overlay .mask {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+header {
+  padding: 150px 0 110px;
+}
   h1 {
     color: black;
     text-align: center;
