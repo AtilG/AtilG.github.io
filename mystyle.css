@@ -45,14 +45,13 @@ body {
 header {
   padding: 150px 0 110px;
 }
-  h1 {
+h1 {
     text-align: center;
   }
 
-  p {
-    color: white !important;
-    text-align: center;
-  }
+p {
+  margin: 10px 0;
+}
 
   .center {
     display: block;
