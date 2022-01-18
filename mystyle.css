@@ -35,6 +35,10 @@ body {
   animation-fill-mode: both;
 }
 
+.main-content a {
+  color: white !important;
+}
+
 .fadeout-overlay .mask:hover {
   opacity: 0;
 }
